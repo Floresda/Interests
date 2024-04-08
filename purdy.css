@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    margin: 2rem;    
+  }
+#loginForm {
+    width: 300px;
+}
+
+header {
+    font-size: 50px;
+    text-decoration: bold;
+    text-align: center;
+    background-color: #013369;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    background-color: #D50A0A;
+    color: white;
+    width: 250px;
+    padding: 50px;
+  }
+  
+  label {
+    width: 3rem;
+    text-align: right;
+    padding-right: 25px;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+  }
+  
+  #optimizeBtn {
+    padding: 0.75rem 1.5rem;
+    background-color: #013369;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #optimizedLineup {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  #optimizedLineup br {
+    margin-bottom: 0.5rem;
+  }
+  #playerForm {
+    position: absolute;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #optimizedLineup,
+#totalScore {
+  position: relative;
+  left: 300px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 1rem;  
+}
+  

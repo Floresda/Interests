@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fantasy Football Lineup Optimizer</title>
+  <link rel="stylesheet" href="purdy.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="code.js"></script>
+</head>
+<body>
+  <form id="loginForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <button type="button" id="loginBtn">Login</button>
+    <p id="errorMsg"></p>
+  </form>
+
+  <div id="mainContent" style="display: none;">
+    <header>Fantasy Football Lineup Optimizer</header>
+    <form id="playerForm">
+      <label for="qb">QB:</label>
+      <input type="text" id="qb" name="qb" placeholder="Enter Player Name">
+      <br>
+
+      <label for="rb1">RB1:</label>
+      <input type="text" id="rb1" name="rb1" placeholder="Enter Player Name">
+      <br>
+
+      <label for="rb2">RB2:</label>
+      <input type="text" id="rb2" name="rb2" placeholder="Enter Player Name">
+      <br>
+
+      <label for="wr1">WR1:</label>
+      <input type="text" id="wr1" name="wr1" placeholder="Enter Player Name">
+      <br>
+
+      <label for="wr2">WR2:</label>
+      <input type="text" id="wr2" name="wr2" placeholder="Enter Player Name">
+      <br>
+
+      <label for="te">TE:</label>
+      <input type="text" id="te" name="te" placeholder="Enter Player Name">
+      <br>
+
+      <label for="flex">Flex:</label>
+      <input type="text" id="flex" name="flex" placeholder="Enter Player Name">
+      <br>
+
+      <label for="k">Kicker:</label>
+      <input type="text" id="k" name="k" placeholder="Enter Player Name">
+      <br>
+
+      <label for="dst">Defense/ST:</label>
+      <input type="text" id="dst" name="dst" placeholder="Enter Player Name">
+      <br>
+
+      <button type="button" id="optimizeBtn">Optimize Lineup</button>
+    </form>
+
+    <div id="optimizedLineup"></div>
+    <p id="totalScore"></p>
+  </div>
+</body>
+</html>
